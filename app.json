@@ -1,0 +1,40 @@
+{
+  
+  "expo": {
+    "name": "react-native-template-app-turismo-template",
+    "slug": "app-turismo-sfds",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.wizetech.turismosfds",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Permita o aplicativo acessar sua camera. Por favor, precisamos do acesso para conseguir ler os QR Codes dos Atrativos Turísticos."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.wizetech.turismosfds",
+      "versionCode": 3
+    },
+    "web": {
+      "favicon": "./src/assets/brasao.png"
+    },
+    "scheme": "app.wizetech.net"
+  }
+}
